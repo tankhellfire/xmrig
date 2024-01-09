@@ -28,7 +28,7 @@
 #include "base/io/log/Log.h"
 #include "base/kernel/interfaces/IJsonReader.h"
 #include "base/net/stratum/strategies/FailoverStrategy.h"
-#include "/workspaces/xmrig/src/base/net/stratum/strategies/SinglePoolStrategy.h"
+#include "base/net/stratum/strategies/SinglePoolStrategy.h"
 
 
 #ifdef XMRIG_FEATURE_BENCHMARK
