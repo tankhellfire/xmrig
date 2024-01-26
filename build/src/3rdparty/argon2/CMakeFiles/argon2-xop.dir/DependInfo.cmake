@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/workspaces/xmrig/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-xop.c" "/workspaces/xmrig/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/arch/x86_64/lib/argon2-xop.c.o"
+  "/workspaces/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-xop.c" "/workspaces/xmrig/build/src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/arch/x86_64/lib/argon2-xop.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

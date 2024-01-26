@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/workspaces/xmrig/xmrig/build/src/3rdparty/argon2/cmake_install.cmake")
-  include("/workspaces/xmrig/xmrig/build/src/3rdparty/libethash/cmake_install.cmake")
-  include("/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/cmake_install.cmake")
+  include("/workspaces/xmrig/build/src/3rdparty/argon2/cmake_install.cmake")
+  include("/workspaces/xmrig/build/src/3rdparty/libethash/cmake_install.cmake")
+  include("/workspaces/xmrig/build/src/crypto/ghostrider/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/workspaces/xmrig/xmrig/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/workspaces/xmrig/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

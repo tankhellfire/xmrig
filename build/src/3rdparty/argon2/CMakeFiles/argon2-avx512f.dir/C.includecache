@@ -24,9 +24,9 @@ limits.h
 3rdparty/argon2.h
 ../src/3rdparty/argon2/lib/3rdparty/argon2.h
 
-/workspaces/xmrig/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.c
+/workspaces/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.c
 argon2-avx512f.h
-/workspaces/xmrig/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h
+/workspaces/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h
 stdint.h
 -
 string.h
@@ -36,7 +36,7 @@ x86intrin.h
 intrin.h
 -
 
-/workspaces/xmrig/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h
+/workspaces/xmrig/src/3rdparty/argon2/arch/x86_64/lib/argon2-avx512f.h
 core.h
-/workspaces/xmrig/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
+/workspaces/xmrig/src/3rdparty/argon2/arch/x86_64/lib/core.h
 

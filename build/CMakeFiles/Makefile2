@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/xmrig/xmrig
+CMAKE_SOURCE_DIR = /workspaces/xmrig
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/xmrig/xmrig/build
+CMAKE_BINARY_DIR = /workspaces/xmrig/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -156,14 +156,14 @@ CMakeFiles/xmrig.dir/all: src/3rdparty/libethash/CMakeFiles/ethash.dir/all
 CMakeFiles/xmrig.dir/all: src/crypto/ghostrider/CMakeFiles/ghostrider.dir/all
 	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/depend
 	$(MAKE) -f CMakeFiles/xmrig.dir/build.make CMakeFiles/xmrig.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target xmrig"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target xmrig"
 .PHONY : CMakeFiles/xmrig.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/xmrig.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 100
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 100
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/xmrig.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : CMakeFiles/xmrig.dir/rule
 
 # Convenience name for target.
@@ -183,14 +183,14 @@ CMakeFiles/xmrig.dir/clean:
 CMakeFiles/xmrig-asm.dir/all:
 	$(MAKE) -f CMakeFiles/xmrig-asm.dir/build.make CMakeFiles/xmrig-asm.dir/depend
 	$(MAKE) -f CMakeFiles/xmrig-asm.dir/build.make CMakeFiles/xmrig-asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num=99,100 "Built target xmrig-asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num=99,100 "Built target xmrig-asm"
 .PHONY : CMakeFiles/xmrig-asm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/xmrig-asm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/xmrig-asm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : CMakeFiles/xmrig-asm.dir/rule
 
 # Convenience name for target.
@@ -214,14 +214,14 @@ src/3rdparty/argon2/CMakeFiles/argon2.dir/all: src/3rdparty/argon2/CMakeFiles/ar
 src/3rdparty/argon2/CMakeFiles/argon2.dir/all: src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/all
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/depend
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num=1,2 "Built target argon2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num=1,2 "Built target argon2"
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2.dir/all
 
 # Build rule for subdir invocation for target.
 src/3rdparty/argon2/CMakeFiles/argon2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2.dir/rule
 
 # Convenience name for target.
@@ -241,14 +241,14 @@ src/3rdparty/argon2/CMakeFiles/argon2.dir/clean:
 src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/all:
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/depend
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num=4 "Built target argon2-avx512f"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num=4 "Built target argon2-avx512f"
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/all
 
 # Build rule for subdir invocation for target.
 src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/rule
 
 # Convenience name for target.
@@ -268,14 +268,14 @@ src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/clean:
 src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/all:
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/depend
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num=3 "Built target argon2-avx2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num=3 "Built target argon2-avx2"
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/all
 
 # Build rule for subdir invocation for target.
 src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/rule
 
 # Convenience name for target.
@@ -295,14 +295,14 @@ src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/clean:
 src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/all:
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/depend
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num=6 "Built target argon2-xop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num=6 "Built target argon2-xop"
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/all
 
 # Build rule for subdir invocation for target.
 src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/rule
 
 # Convenience name for target.
@@ -322,14 +322,14 @@ src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/clean:
 src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/all:
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/depend
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num= "Built target argon2-ssse3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num= "Built target argon2-ssse3"
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/all
 
 # Build rule for subdir invocation for target.
 src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/rule
 
 # Convenience name for target.
@@ -349,14 +349,14 @@ src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/clean:
 src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/all:
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/depend
 	$(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num=5 "Built target argon2-sse2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num=5 "Built target argon2-sse2"
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/all
 
 # Build rule for subdir invocation for target.
 src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/rule
 
 # Convenience name for target.
@@ -376,14 +376,14 @@ src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/clean:
 src/3rdparty/libethash/CMakeFiles/ethash.dir/all:
 	$(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/depend
 	$(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num=7 "Built target ethash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num=7 "Built target ethash"
 .PHONY : src/3rdparty/libethash/CMakeFiles/ethash.dir/all
 
 # Build rule for subdir invocation for target.
 src/3rdparty/libethash/CMakeFiles/ethash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libethash/CMakeFiles/ethash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : src/3rdparty/libethash/CMakeFiles/ethash.dir/rule
 
 # Convenience name for target.
@@ -403,14 +403,14 @@ src/3rdparty/libethash/CMakeFiles/ethash.dir/clean:
 src/crypto/ghostrider/CMakeFiles/ghostrider.dir/all:
 	$(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/depend
 	$(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num=8,9,10,11,12,13,14 "Built target ghostrider"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num=8,9,10,11,12,13,14 "Built target ghostrider"
 .PHONY : src/crypto/ghostrider/CMakeFiles/ghostrider.dir/all
 
 # Build rule for subdir invocation for target.
 src/crypto/ghostrider/CMakeFiles/ghostrider.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 src/crypto/ghostrider/CMakeFiles/ghostrider.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : src/crypto/ghostrider/CMakeFiles/ghostrider.dir/rule
 
 # Convenience name for target.

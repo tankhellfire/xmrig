@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/workspaces/xmrig/xmrig/src/3rdparty/libethash/ethash_internal.c" "/workspaces/xmrig/xmrig/build/src/3rdparty/libethash/CMakeFiles/ethash.dir/ethash_internal.c.o"
-  "/workspaces/xmrig/xmrig/src/3rdparty/libethash/keccakf800.c" "/workspaces/xmrig/xmrig/build/src/3rdparty/libethash/CMakeFiles/ethash.dir/keccakf800.c.o"
+  "/workspaces/xmrig/src/3rdparty/libethash/ethash_internal.c" "/workspaces/xmrig/build/src/3rdparty/libethash/CMakeFiles/ethash.dir/ethash_internal.c.o"
+  "/workspaces/xmrig/src/3rdparty/libethash/keccakf800.c" "/workspaces/xmrig/build/src/3rdparty/libethash/CMakeFiles/ethash.dir/keccakf800.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

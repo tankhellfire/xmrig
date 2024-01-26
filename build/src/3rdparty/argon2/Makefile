@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/xmrig/xmrig
+CMAKE_SOURCE_DIR = /workspaces/xmrig
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/xmrig/xmrig/build
+CMAKE_BINARY_DIR = /workspaces/xmrig/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /workspaces/xmrig/xmrig/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles /workspaces/xmrig/xmrig/build/src/3rdparty/argon2/CMakeFiles/progress.marks
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	cd /workspaces/xmrig/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles /workspaces/xmrig/build/src/3rdparty/argon2/CMakeFiles/progress.marks
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/clean
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/preinstall
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/preinstall
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /workspaces/xmrig/xmrig/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspaces/xmrig/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/3rdparty/argon2/CMakeFiles/argon2.dir/rule:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2.dir/rule
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2.dir/rule
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ argon2: src/3rdparty/argon2/CMakeFiles/argon2.dir/rule
 
 # fast build rule for target.
 argon2/fast:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/build
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/build
 .PHONY : argon2/fast
 
 # Convenience name for target.
 src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/rule:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/rule
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/rule
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ argon2-avx512f: src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/rule
 
 # fast build rule for target.
 argon2-avx512f/fast:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build
 .PHONY : argon2-avx512f/fast
 
 # Convenience name for target.
 src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/rule:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/rule
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/rule
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ argon2-avx2: src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/rule
 
 # fast build rule for target.
 argon2-avx2/fast:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build
 .PHONY : argon2-avx2/fast
 
 # Convenience name for target.
 src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/rule:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/rule
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/rule
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ argon2-xop: src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/rule
 
 # fast build rule for target.
 argon2-xop/fast:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build
 .PHONY : argon2-xop/fast
 
 # Convenience name for target.
 src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/rule:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/rule
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/rule
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ argon2-ssse3: src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/rule
 
 # fast build rule for target.
 argon2-ssse3/fast:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build
 .PHONY : argon2-ssse3/fast
 
 # Convenience name for target.
 src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/rule:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/rule
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/rule
 .PHONY : src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/rule
 
 # Convenience name for target.
@@ -197,7 +197,7 @@ argon2-sse2: src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/rule
 
 # fast build rule for target.
 argon2-sse2/fast:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build
 .PHONY : argon2-sse2/fast
 
 arch/x86_64/lib/argon2-arch.o: arch/x86_64/lib/argon2-arch.c.o
@@ -206,7 +206,7 @@ arch/x86_64/lib/argon2-arch.o: arch/x86_64/lib/argon2-arch.c.o
 
 # target to build an object file
 arch/x86_64/lib/argon2-arch.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.o
 .PHONY : arch/x86_64/lib/argon2-arch.c.o
 
 arch/x86_64/lib/argon2-arch.i: arch/x86_64/lib/argon2-arch.c.i
@@ -215,7 +215,7 @@ arch/x86_64/lib/argon2-arch.i: arch/x86_64/lib/argon2-arch.c.i
 
 # target to preprocess a source file
 arch/x86_64/lib/argon2-arch.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.i
 .PHONY : arch/x86_64/lib/argon2-arch.c.i
 
 arch/x86_64/lib/argon2-arch.s: arch/x86_64/lib/argon2-arch.c.s
@@ -224,7 +224,7 @@ arch/x86_64/lib/argon2-arch.s: arch/x86_64/lib/argon2-arch.c.s
 
 # target to generate assembly for a file
 arch/x86_64/lib/argon2-arch.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/arch/x86_64/lib/argon2-arch.c.s
 .PHONY : arch/x86_64/lib/argon2-arch.c.s
 
 arch/x86_64/lib/argon2-avx2.o: arch/x86_64/lib/argon2-avx2.c.o
@@ -233,7 +233,7 @@ arch/x86_64/lib/argon2-avx2.o: arch/x86_64/lib/argon2-avx2.c.o
 
 # target to build an object file
 arch/x86_64/lib/argon2-avx2.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/arch/x86_64/lib/argon2-avx2.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/arch/x86_64/lib/argon2-avx2.c.o
 .PHONY : arch/x86_64/lib/argon2-avx2.c.o
 
 arch/x86_64/lib/argon2-avx2.i: arch/x86_64/lib/argon2-avx2.c.i
@@ -242,7 +242,7 @@ arch/x86_64/lib/argon2-avx2.i: arch/x86_64/lib/argon2-avx2.c.i
 
 # target to preprocess a source file
 arch/x86_64/lib/argon2-avx2.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/arch/x86_64/lib/argon2-avx2.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/arch/x86_64/lib/argon2-avx2.c.i
 .PHONY : arch/x86_64/lib/argon2-avx2.c.i
 
 arch/x86_64/lib/argon2-avx2.s: arch/x86_64/lib/argon2-avx2.c.s
@@ -251,7 +251,7 @@ arch/x86_64/lib/argon2-avx2.s: arch/x86_64/lib/argon2-avx2.c.s
 
 # target to generate assembly for a file
 arch/x86_64/lib/argon2-avx2.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/arch/x86_64/lib/argon2-avx2.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx2.dir/arch/x86_64/lib/argon2-avx2.c.s
 .PHONY : arch/x86_64/lib/argon2-avx2.c.s
 
 arch/x86_64/lib/argon2-avx512f.o: arch/x86_64/lib/argon2-avx512f.c.o
@@ -260,7 +260,7 @@ arch/x86_64/lib/argon2-avx512f.o: arch/x86_64/lib/argon2-avx512f.c.o
 
 # target to build an object file
 arch/x86_64/lib/argon2-avx512f.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/arch/x86_64/lib/argon2-avx512f.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/arch/x86_64/lib/argon2-avx512f.c.o
 .PHONY : arch/x86_64/lib/argon2-avx512f.c.o
 
 arch/x86_64/lib/argon2-avx512f.i: arch/x86_64/lib/argon2-avx512f.c.i
@@ -269,7 +269,7 @@ arch/x86_64/lib/argon2-avx512f.i: arch/x86_64/lib/argon2-avx512f.c.i
 
 # target to preprocess a source file
 arch/x86_64/lib/argon2-avx512f.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/arch/x86_64/lib/argon2-avx512f.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/arch/x86_64/lib/argon2-avx512f.c.i
 .PHONY : arch/x86_64/lib/argon2-avx512f.c.i
 
 arch/x86_64/lib/argon2-avx512f.s: arch/x86_64/lib/argon2-avx512f.c.s
@@ -278,7 +278,7 @@ arch/x86_64/lib/argon2-avx512f.s: arch/x86_64/lib/argon2-avx512f.c.s
 
 # target to generate assembly for a file
 arch/x86_64/lib/argon2-avx512f.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/arch/x86_64/lib/argon2-avx512f.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-avx512f.dir/arch/x86_64/lib/argon2-avx512f.c.s
 .PHONY : arch/x86_64/lib/argon2-avx512f.c.s
 
 arch/x86_64/lib/argon2-sse2.o: arch/x86_64/lib/argon2-sse2.c.o
@@ -287,7 +287,7 @@ arch/x86_64/lib/argon2-sse2.o: arch/x86_64/lib/argon2-sse2.c.o
 
 # target to build an object file
 arch/x86_64/lib/argon2-sse2.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/arch/x86_64/lib/argon2-sse2.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/arch/x86_64/lib/argon2-sse2.c.o
 .PHONY : arch/x86_64/lib/argon2-sse2.c.o
 
 arch/x86_64/lib/argon2-sse2.i: arch/x86_64/lib/argon2-sse2.c.i
@@ -296,7 +296,7 @@ arch/x86_64/lib/argon2-sse2.i: arch/x86_64/lib/argon2-sse2.c.i
 
 # target to preprocess a source file
 arch/x86_64/lib/argon2-sse2.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/arch/x86_64/lib/argon2-sse2.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/arch/x86_64/lib/argon2-sse2.c.i
 .PHONY : arch/x86_64/lib/argon2-sse2.c.i
 
 arch/x86_64/lib/argon2-sse2.s: arch/x86_64/lib/argon2-sse2.c.s
@@ -305,7 +305,7 @@ arch/x86_64/lib/argon2-sse2.s: arch/x86_64/lib/argon2-sse2.c.s
 
 # target to generate assembly for a file
 arch/x86_64/lib/argon2-sse2.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/arch/x86_64/lib/argon2-sse2.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-sse2.dir/arch/x86_64/lib/argon2-sse2.c.s
 .PHONY : arch/x86_64/lib/argon2-sse2.c.s
 
 arch/x86_64/lib/argon2-ssse3.o: arch/x86_64/lib/argon2-ssse3.c.o
@@ -314,7 +314,7 @@ arch/x86_64/lib/argon2-ssse3.o: arch/x86_64/lib/argon2-ssse3.c.o
 
 # target to build an object file
 arch/x86_64/lib/argon2-ssse3.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/arch/x86_64/lib/argon2-ssse3.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/arch/x86_64/lib/argon2-ssse3.c.o
 .PHONY : arch/x86_64/lib/argon2-ssse3.c.o
 
 arch/x86_64/lib/argon2-ssse3.i: arch/x86_64/lib/argon2-ssse3.c.i
@@ -323,7 +323,7 @@ arch/x86_64/lib/argon2-ssse3.i: arch/x86_64/lib/argon2-ssse3.c.i
 
 # target to preprocess a source file
 arch/x86_64/lib/argon2-ssse3.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/arch/x86_64/lib/argon2-ssse3.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/arch/x86_64/lib/argon2-ssse3.c.i
 .PHONY : arch/x86_64/lib/argon2-ssse3.c.i
 
 arch/x86_64/lib/argon2-ssse3.s: arch/x86_64/lib/argon2-ssse3.c.s
@@ -332,7 +332,7 @@ arch/x86_64/lib/argon2-ssse3.s: arch/x86_64/lib/argon2-ssse3.c.s
 
 # target to generate assembly for a file
 arch/x86_64/lib/argon2-ssse3.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/arch/x86_64/lib/argon2-ssse3.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-ssse3.dir/arch/x86_64/lib/argon2-ssse3.c.s
 .PHONY : arch/x86_64/lib/argon2-ssse3.c.s
 
 arch/x86_64/lib/argon2-xop.o: arch/x86_64/lib/argon2-xop.c.o
@@ -341,7 +341,7 @@ arch/x86_64/lib/argon2-xop.o: arch/x86_64/lib/argon2-xop.c.o
 
 # target to build an object file
 arch/x86_64/lib/argon2-xop.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/arch/x86_64/lib/argon2-xop.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/arch/x86_64/lib/argon2-xop.c.o
 .PHONY : arch/x86_64/lib/argon2-xop.c.o
 
 arch/x86_64/lib/argon2-xop.i: arch/x86_64/lib/argon2-xop.c.i
@@ -350,7 +350,7 @@ arch/x86_64/lib/argon2-xop.i: arch/x86_64/lib/argon2-xop.c.i
 
 # target to preprocess a source file
 arch/x86_64/lib/argon2-xop.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/arch/x86_64/lib/argon2-xop.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/arch/x86_64/lib/argon2-xop.c.i
 .PHONY : arch/x86_64/lib/argon2-xop.c.i
 
 arch/x86_64/lib/argon2-xop.s: arch/x86_64/lib/argon2-xop.c.s
@@ -359,7 +359,7 @@ arch/x86_64/lib/argon2-xop.s: arch/x86_64/lib/argon2-xop.c.s
 
 # target to generate assembly for a file
 arch/x86_64/lib/argon2-xop.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/arch/x86_64/lib/argon2-xop.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2-xop.dir/arch/x86_64/lib/argon2-xop.c.s
 .PHONY : arch/x86_64/lib/argon2-xop.c.s
 
 lib/argon2.o: lib/argon2.c.o
@@ -368,7 +368,7 @@ lib/argon2.o: lib/argon2.c.o
 
 # target to build an object file
 lib/argon2.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/argon2.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/argon2.c.o
 .PHONY : lib/argon2.c.o
 
 lib/argon2.i: lib/argon2.c.i
@@ -377,7 +377,7 @@ lib/argon2.i: lib/argon2.c.i
 
 # target to preprocess a source file
 lib/argon2.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/argon2.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/argon2.c.i
 .PHONY : lib/argon2.c.i
 
 lib/argon2.s: lib/argon2.c.s
@@ -386,7 +386,7 @@ lib/argon2.s: lib/argon2.c.s
 
 # target to generate assembly for a file
 lib/argon2.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/argon2.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/argon2.c.s
 .PHONY : lib/argon2.c.s
 
 lib/blake2/blake2.o: lib/blake2/blake2.c.o
@@ -395,7 +395,7 @@ lib/blake2/blake2.o: lib/blake2/blake2.c.o
 
 # target to build an object file
 lib/blake2/blake2.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.o
 .PHONY : lib/blake2/blake2.c.o
 
 lib/blake2/blake2.i: lib/blake2/blake2.c.i
@@ -404,7 +404,7 @@ lib/blake2/blake2.i: lib/blake2/blake2.c.i
 
 # target to preprocess a source file
 lib/blake2/blake2.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.i
 .PHONY : lib/blake2/blake2.c.i
 
 lib/blake2/blake2.s: lib/blake2/blake2.c.s
@@ -413,7 +413,7 @@ lib/blake2/blake2.s: lib/blake2/blake2.c.s
 
 # target to generate assembly for a file
 lib/blake2/blake2.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/blake2/blake2.c.s
 .PHONY : lib/blake2/blake2.c.s
 
 lib/core.o: lib/core.c.o
@@ -422,7 +422,7 @@ lib/core.o: lib/core.c.o
 
 # target to build an object file
 lib/core.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/core.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/core.c.o
 .PHONY : lib/core.c.o
 
 lib/core.i: lib/core.c.i
@@ -431,7 +431,7 @@ lib/core.i: lib/core.c.i
 
 # target to preprocess a source file
 lib/core.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/core.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/core.c.i
 .PHONY : lib/core.c.i
 
 lib/core.s: lib/core.c.s
@@ -440,7 +440,7 @@ lib/core.s: lib/core.c.s
 
 # target to generate assembly for a file
 lib/core.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/core.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/core.c.s
 .PHONY : lib/core.c.s
 
 lib/encoding.o: lib/encoding.c.o
@@ -449,7 +449,7 @@ lib/encoding.o: lib/encoding.c.o
 
 # target to build an object file
 lib/encoding.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/encoding.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/encoding.c.o
 .PHONY : lib/encoding.c.o
 
 lib/encoding.i: lib/encoding.c.i
@@ -458,7 +458,7 @@ lib/encoding.i: lib/encoding.c.i
 
 # target to preprocess a source file
 lib/encoding.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/encoding.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/encoding.c.i
 .PHONY : lib/encoding.c.i
 
 lib/encoding.s: lib/encoding.c.s
@@ -467,7 +467,7 @@ lib/encoding.s: lib/encoding.c.s
 
 # target to generate assembly for a file
 lib/encoding.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/encoding.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/encoding.c.s
 .PHONY : lib/encoding.c.s
 
 lib/genkat.o: lib/genkat.c.o
@@ -476,7 +476,7 @@ lib/genkat.o: lib/genkat.c.o
 
 # target to build an object file
 lib/genkat.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/genkat.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/genkat.c.o
 .PHONY : lib/genkat.c.o
 
 lib/genkat.i: lib/genkat.c.i
@@ -485,7 +485,7 @@ lib/genkat.i: lib/genkat.c.i
 
 # target to preprocess a source file
 lib/genkat.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/genkat.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/genkat.c.i
 .PHONY : lib/genkat.c.i
 
 lib/genkat.s: lib/genkat.c.s
@@ -494,7 +494,7 @@ lib/genkat.s: lib/genkat.c.s
 
 # target to generate assembly for a file
 lib/genkat.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/genkat.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/genkat.c.s
 .PHONY : lib/genkat.c.s
 
 lib/impl-select.o: lib/impl-select.c.o
@@ -503,7 +503,7 @@ lib/impl-select.o: lib/impl-select.c.o
 
 # target to build an object file
 lib/impl-select.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.o
 .PHONY : lib/impl-select.c.o
 
 lib/impl-select.i: lib/impl-select.c.i
@@ -512,7 +512,7 @@ lib/impl-select.i: lib/impl-select.c.i
 
 # target to preprocess a source file
 lib/impl-select.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.i
 .PHONY : lib/impl-select.c.i
 
 lib/impl-select.s: lib/impl-select.c.s
@@ -521,7 +521,7 @@ lib/impl-select.s: lib/impl-select.c.s
 
 # target to generate assembly for a file
 lib/impl-select.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/argon2/CMakeFiles/argon2.dir/build.make src/3rdparty/argon2/CMakeFiles/argon2.dir/lib/impl-select.c.s
 .PHONY : lib/impl-select.c.s
 
 # Help Target
@@ -585,6 +585,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /workspaces/xmrig/xmrig/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspaces/xmrig/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

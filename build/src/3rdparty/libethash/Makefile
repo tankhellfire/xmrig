@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/xmrig/xmrig
+CMAKE_SOURCE_DIR = /workspaces/xmrig
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/xmrig/xmrig/build
+CMAKE_BINARY_DIR = /workspaces/xmrig/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /workspaces/xmrig/xmrig/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles /workspaces/xmrig/xmrig/build/src/3rdparty/libethash/CMakeFiles/progress.marks
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libethash/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	cd /workspaces/xmrig/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles /workspaces/xmrig/build/src/3rdparty/libethash/CMakeFiles/progress.marks
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libethash/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libethash/clean
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libethash/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libethash/preinstall
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libethash/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libethash/preinstall
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libethash/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /workspaces/xmrig/xmrig/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspaces/xmrig/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/3rdparty/libethash/CMakeFiles/ethash.dir/rule:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libethash/CMakeFiles/ethash.dir/rule
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/3rdparty/libethash/CMakeFiles/ethash.dir/rule
 .PHONY : src/3rdparty/libethash/CMakeFiles/ethash.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ ethash: src/3rdparty/libethash/CMakeFiles/ethash.dir/rule
 
 # fast build rule for target.
 ethash/fast:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/build
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/build
 .PHONY : ethash/fast
 
 ethash_internal.o: ethash_internal.c.o
@@ -131,7 +131,7 @@ ethash_internal.o: ethash_internal.c.o
 
 # target to build an object file
 ethash_internal.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/ethash_internal.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/ethash_internal.c.o
 .PHONY : ethash_internal.c.o
 
 ethash_internal.i: ethash_internal.c.i
@@ -140,7 +140,7 @@ ethash_internal.i: ethash_internal.c.i
 
 # target to preprocess a source file
 ethash_internal.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/ethash_internal.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/ethash_internal.c.i
 .PHONY : ethash_internal.c.i
 
 ethash_internal.s: ethash_internal.c.s
@@ -149,7 +149,7 @@ ethash_internal.s: ethash_internal.c.s
 
 # target to generate assembly for a file
 ethash_internal.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/ethash_internal.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/ethash_internal.c.s
 .PHONY : ethash_internal.c.s
 
 keccakf800.o: keccakf800.c.o
@@ -158,7 +158,7 @@ keccakf800.o: keccakf800.c.o
 
 # target to build an object file
 keccakf800.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/keccakf800.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/keccakf800.c.o
 .PHONY : keccakf800.c.o
 
 keccakf800.i: keccakf800.c.i
@@ -167,7 +167,7 @@ keccakf800.i: keccakf800.c.i
 
 # target to preprocess a source file
 keccakf800.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/keccakf800.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/keccakf800.c.i
 .PHONY : keccakf800.c.i
 
 keccakf800.s: keccakf800.c.s
@@ -176,7 +176,7 @@ keccakf800.s: keccakf800.c.s
 
 # target to generate assembly for a file
 keccakf800.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/keccakf800.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/3rdparty/libethash/CMakeFiles/ethash.dir/build.make src/3rdparty/libethash/CMakeFiles/ethash.dir/keccakf800.c.s
 .PHONY : keccakf800.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /workspaces/xmrig/xmrig/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspaces/xmrig/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

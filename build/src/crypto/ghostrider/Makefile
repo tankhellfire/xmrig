@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/xmrig/xmrig
+CMAKE_SOURCE_DIR = /workspaces/xmrig
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/xmrig/xmrig/build
+CMAKE_BINARY_DIR = /workspaces/xmrig/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /workspaces/xmrig/xmrig/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles /workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/progress.marks
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/crypto/ghostrider/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/xmrig/build/CMakeFiles 0
+	cd /workspaces/xmrig/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles /workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/progress.marks
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/crypto/ghostrider/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/xmrig/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/crypto/ghostrider/clean
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/crypto/ghostrider/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/crypto/ghostrider/preinstall
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/crypto/ghostrider/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/crypto/ghostrider/preinstall
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/crypto/ghostrider/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /workspaces/xmrig/xmrig/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspaces/xmrig/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/crypto/ghostrider/CMakeFiles/ghostrider.dir/rule:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/crypto/ghostrider/CMakeFiles/ghostrider.dir/rule
+	cd /workspaces/xmrig/build && $(MAKE) -f CMakeFiles/Makefile2 src/crypto/ghostrider/CMakeFiles/ghostrider.dir/rule
 .PHONY : src/crypto/ghostrider/CMakeFiles/ghostrider.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ ghostrider: src/crypto/ghostrider/CMakeFiles/ghostrider.dir/rule
 
 # fast build rule for target.
 ghostrider/fast:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build
 .PHONY : ghostrider/fast
 
 ghostrider.o: ghostrider.cpp.o
@@ -131,7 +131,7 @@ ghostrider.o: ghostrider.cpp.o
 
 # target to build an object file
 ghostrider.cpp.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/ghostrider.cpp.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/ghostrider.cpp.o
 .PHONY : ghostrider.cpp.o
 
 ghostrider.i: ghostrider.cpp.i
@@ -140,7 +140,7 @@ ghostrider.i: ghostrider.cpp.i
 
 # target to preprocess a source file
 ghostrider.cpp.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/ghostrider.cpp.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/ghostrider.cpp.i
 .PHONY : ghostrider.cpp.i
 
 ghostrider.s: ghostrider.cpp.s
@@ -149,7 +149,7 @@ ghostrider.s: ghostrider.cpp.s
 
 # target to generate assembly for a file
 ghostrider.cpp.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/ghostrider.cpp.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/ghostrider.cpp.s
 .PHONY : ghostrider.cpp.s
 
 sph_blake.o: sph_blake.c.o
@@ -158,7 +158,7 @@ sph_blake.o: sph_blake.c.o
 
 # target to build an object file
 sph_blake.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_blake.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_blake.c.o
 .PHONY : sph_blake.c.o
 
 sph_blake.i: sph_blake.c.i
@@ -167,7 +167,7 @@ sph_blake.i: sph_blake.c.i
 
 # target to preprocess a source file
 sph_blake.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_blake.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_blake.c.i
 .PHONY : sph_blake.c.i
 
 sph_blake.s: sph_blake.c.s
@@ -176,7 +176,7 @@ sph_blake.s: sph_blake.c.s
 
 # target to generate assembly for a file
 sph_blake.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_blake.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_blake.c.s
 .PHONY : sph_blake.c.s
 
 sph_bmw.o: sph_bmw.c.o
@@ -185,7 +185,7 @@ sph_bmw.o: sph_bmw.c.o
 
 # target to build an object file
 sph_bmw.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_bmw.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_bmw.c.o
 .PHONY : sph_bmw.c.o
 
 sph_bmw.i: sph_bmw.c.i
@@ -194,7 +194,7 @@ sph_bmw.i: sph_bmw.c.i
 
 # target to preprocess a source file
 sph_bmw.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_bmw.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_bmw.c.i
 .PHONY : sph_bmw.c.i
 
 sph_bmw.s: sph_bmw.c.s
@@ -203,7 +203,7 @@ sph_bmw.s: sph_bmw.c.s
 
 # target to generate assembly for a file
 sph_bmw.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_bmw.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_bmw.c.s
 .PHONY : sph_bmw.c.s
 
 sph_cubehash.o: sph_cubehash.c.o
@@ -212,7 +212,7 @@ sph_cubehash.o: sph_cubehash.c.o
 
 # target to build an object file
 sph_cubehash.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_cubehash.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_cubehash.c.o
 .PHONY : sph_cubehash.c.o
 
 sph_cubehash.i: sph_cubehash.c.i
@@ -221,7 +221,7 @@ sph_cubehash.i: sph_cubehash.c.i
 
 # target to preprocess a source file
 sph_cubehash.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_cubehash.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_cubehash.c.i
 .PHONY : sph_cubehash.c.i
 
 sph_cubehash.s: sph_cubehash.c.s
@@ -230,7 +230,7 @@ sph_cubehash.s: sph_cubehash.c.s
 
 # target to generate assembly for a file
 sph_cubehash.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_cubehash.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_cubehash.c.s
 .PHONY : sph_cubehash.c.s
 
 sph_echo.o: sph_echo.c.o
@@ -239,7 +239,7 @@ sph_echo.o: sph_echo.c.o
 
 # target to build an object file
 sph_echo.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_echo.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_echo.c.o
 .PHONY : sph_echo.c.o
 
 sph_echo.i: sph_echo.c.i
@@ -248,7 +248,7 @@ sph_echo.i: sph_echo.c.i
 
 # target to preprocess a source file
 sph_echo.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_echo.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_echo.c.i
 .PHONY : sph_echo.c.i
 
 sph_echo.s: sph_echo.c.s
@@ -257,7 +257,7 @@ sph_echo.s: sph_echo.c.s
 
 # target to generate assembly for a file
 sph_echo.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_echo.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_echo.c.s
 .PHONY : sph_echo.c.s
 
 sph_fugue.o: sph_fugue.c.o
@@ -266,7 +266,7 @@ sph_fugue.o: sph_fugue.c.o
 
 # target to build an object file
 sph_fugue.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_fugue.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_fugue.c.o
 .PHONY : sph_fugue.c.o
 
 sph_fugue.i: sph_fugue.c.i
@@ -275,7 +275,7 @@ sph_fugue.i: sph_fugue.c.i
 
 # target to preprocess a source file
 sph_fugue.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_fugue.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_fugue.c.i
 .PHONY : sph_fugue.c.i
 
 sph_fugue.s: sph_fugue.c.s
@@ -284,7 +284,7 @@ sph_fugue.s: sph_fugue.c.s
 
 # target to generate assembly for a file
 sph_fugue.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_fugue.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_fugue.c.s
 .PHONY : sph_fugue.c.s
 
 sph_groestl.o: sph_groestl.c.o
@@ -293,7 +293,7 @@ sph_groestl.o: sph_groestl.c.o
 
 # target to build an object file
 sph_groestl.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_groestl.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_groestl.c.o
 .PHONY : sph_groestl.c.o
 
 sph_groestl.i: sph_groestl.c.i
@@ -302,7 +302,7 @@ sph_groestl.i: sph_groestl.c.i
 
 # target to preprocess a source file
 sph_groestl.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_groestl.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_groestl.c.i
 .PHONY : sph_groestl.c.i
 
 sph_groestl.s: sph_groestl.c.s
@@ -311,7 +311,7 @@ sph_groestl.s: sph_groestl.c.s
 
 # target to generate assembly for a file
 sph_groestl.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_groestl.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_groestl.c.s
 .PHONY : sph_groestl.c.s
 
 sph_hamsi.o: sph_hamsi.c.o
@@ -320,7 +320,7 @@ sph_hamsi.o: sph_hamsi.c.o
 
 # target to build an object file
 sph_hamsi.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_hamsi.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_hamsi.c.o
 .PHONY : sph_hamsi.c.o
 
 sph_hamsi.i: sph_hamsi.c.i
@@ -329,7 +329,7 @@ sph_hamsi.i: sph_hamsi.c.i
 
 # target to preprocess a source file
 sph_hamsi.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_hamsi.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_hamsi.c.i
 .PHONY : sph_hamsi.c.i
 
 sph_hamsi.s: sph_hamsi.c.s
@@ -338,7 +338,7 @@ sph_hamsi.s: sph_hamsi.c.s
 
 # target to generate assembly for a file
 sph_hamsi.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_hamsi.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_hamsi.c.s
 .PHONY : sph_hamsi.c.s
 
 sph_jh.o: sph_jh.c.o
@@ -347,7 +347,7 @@ sph_jh.o: sph_jh.c.o
 
 # target to build an object file
 sph_jh.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_jh.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_jh.c.o
 .PHONY : sph_jh.c.o
 
 sph_jh.i: sph_jh.c.i
@@ -356,7 +356,7 @@ sph_jh.i: sph_jh.c.i
 
 # target to preprocess a source file
 sph_jh.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_jh.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_jh.c.i
 .PHONY : sph_jh.c.i
 
 sph_jh.s: sph_jh.c.s
@@ -365,7 +365,7 @@ sph_jh.s: sph_jh.c.s
 
 # target to generate assembly for a file
 sph_jh.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_jh.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_jh.c.s
 .PHONY : sph_jh.c.s
 
 sph_keccak.o: sph_keccak.c.o
@@ -374,7 +374,7 @@ sph_keccak.o: sph_keccak.c.o
 
 # target to build an object file
 sph_keccak.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_keccak.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_keccak.c.o
 .PHONY : sph_keccak.c.o
 
 sph_keccak.i: sph_keccak.c.i
@@ -383,7 +383,7 @@ sph_keccak.i: sph_keccak.c.i
 
 # target to preprocess a source file
 sph_keccak.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_keccak.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_keccak.c.i
 .PHONY : sph_keccak.c.i
 
 sph_keccak.s: sph_keccak.c.s
@@ -392,7 +392,7 @@ sph_keccak.s: sph_keccak.c.s
 
 # target to generate assembly for a file
 sph_keccak.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_keccak.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_keccak.c.s
 .PHONY : sph_keccak.c.s
 
 sph_luffa.o: sph_luffa.c.o
@@ -401,7 +401,7 @@ sph_luffa.o: sph_luffa.c.o
 
 # target to build an object file
 sph_luffa.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_luffa.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_luffa.c.o
 .PHONY : sph_luffa.c.o
 
 sph_luffa.i: sph_luffa.c.i
@@ -410,7 +410,7 @@ sph_luffa.i: sph_luffa.c.i
 
 # target to preprocess a source file
 sph_luffa.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_luffa.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_luffa.c.i
 .PHONY : sph_luffa.c.i
 
 sph_luffa.s: sph_luffa.c.s
@@ -419,7 +419,7 @@ sph_luffa.s: sph_luffa.c.s
 
 # target to generate assembly for a file
 sph_luffa.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_luffa.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_luffa.c.s
 .PHONY : sph_luffa.c.s
 
 sph_sha2.o: sph_sha2.c.o
@@ -428,7 +428,7 @@ sph_sha2.o: sph_sha2.c.o
 
 # target to build an object file
 sph_sha2.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_sha2.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_sha2.c.o
 .PHONY : sph_sha2.c.o
 
 sph_sha2.i: sph_sha2.c.i
@@ -437,7 +437,7 @@ sph_sha2.i: sph_sha2.c.i
 
 # target to preprocess a source file
 sph_sha2.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_sha2.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_sha2.c.i
 .PHONY : sph_sha2.c.i
 
 sph_sha2.s: sph_sha2.c.s
@@ -446,7 +446,7 @@ sph_sha2.s: sph_sha2.c.s
 
 # target to generate assembly for a file
 sph_sha2.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_sha2.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_sha2.c.s
 .PHONY : sph_sha2.c.s
 
 sph_shabal.o: sph_shabal.c.o
@@ -455,7 +455,7 @@ sph_shabal.o: sph_shabal.c.o
 
 # target to build an object file
 sph_shabal.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shabal.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shabal.c.o
 .PHONY : sph_shabal.c.o
 
 sph_shabal.i: sph_shabal.c.i
@@ -464,7 +464,7 @@ sph_shabal.i: sph_shabal.c.i
 
 # target to preprocess a source file
 sph_shabal.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shabal.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shabal.c.i
 .PHONY : sph_shabal.c.i
 
 sph_shabal.s: sph_shabal.c.s
@@ -473,7 +473,7 @@ sph_shabal.s: sph_shabal.c.s
 
 # target to generate assembly for a file
 sph_shabal.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shabal.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shabal.c.s
 .PHONY : sph_shabal.c.s
 
 sph_shavite.o: sph_shavite.c.o
@@ -482,7 +482,7 @@ sph_shavite.o: sph_shavite.c.o
 
 # target to build an object file
 sph_shavite.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shavite.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shavite.c.o
 .PHONY : sph_shavite.c.o
 
 sph_shavite.i: sph_shavite.c.i
@@ -491,7 +491,7 @@ sph_shavite.i: sph_shavite.c.i
 
 # target to preprocess a source file
 sph_shavite.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shavite.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shavite.c.i
 .PHONY : sph_shavite.c.i
 
 sph_shavite.s: sph_shavite.c.s
@@ -500,7 +500,7 @@ sph_shavite.s: sph_shavite.c.s
 
 # target to generate assembly for a file
 sph_shavite.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shavite.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shavite.c.s
 .PHONY : sph_shavite.c.s
 
 sph_simd.o: sph_simd.c.o
@@ -509,7 +509,7 @@ sph_simd.o: sph_simd.c.o
 
 # target to build an object file
 sph_simd.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_simd.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_simd.c.o
 .PHONY : sph_simd.c.o
 
 sph_simd.i: sph_simd.c.i
@@ -518,7 +518,7 @@ sph_simd.i: sph_simd.c.i
 
 # target to preprocess a source file
 sph_simd.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_simd.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_simd.c.i
 .PHONY : sph_simd.c.i
 
 sph_simd.s: sph_simd.c.s
@@ -527,7 +527,7 @@ sph_simd.s: sph_simd.c.s
 
 # target to generate assembly for a file
 sph_simd.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_simd.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_simd.c.s
 .PHONY : sph_simd.c.s
 
 sph_skein.o: sph_skein.c.o
@@ -536,7 +536,7 @@ sph_skein.o: sph_skein.c.o
 
 # target to build an object file
 sph_skein.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_skein.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_skein.c.o
 .PHONY : sph_skein.c.o
 
 sph_skein.i: sph_skein.c.i
@@ -545,7 +545,7 @@ sph_skein.i: sph_skein.c.i
 
 # target to preprocess a source file
 sph_skein.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_skein.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_skein.c.i
 .PHONY : sph_skein.c.i
 
 sph_skein.s: sph_skein.c.s
@@ -554,7 +554,7 @@ sph_skein.s: sph_skein.c.s
 
 # target to generate assembly for a file
 sph_skein.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_skein.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_skein.c.s
 .PHONY : sph_skein.c.s
 
 sph_whirlpool.o: sph_whirlpool.c.o
@@ -563,7 +563,7 @@ sph_whirlpool.o: sph_whirlpool.c.o
 
 # target to build an object file
 sph_whirlpool.c.o:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_whirlpool.c.o
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_whirlpool.c.o
 .PHONY : sph_whirlpool.c.o
 
 sph_whirlpool.i: sph_whirlpool.c.i
@@ -572,7 +572,7 @@ sph_whirlpool.i: sph_whirlpool.c.i
 
 # target to preprocess a source file
 sph_whirlpool.c.i:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_whirlpool.c.i
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_whirlpool.c.i
 .PHONY : sph_whirlpool.c.i
 
 sph_whirlpool.s: sph_whirlpool.c.s
@@ -581,7 +581,7 @@ sph_whirlpool.s: sph_whirlpool.c.s
 
 # target to generate assembly for a file
 sph_whirlpool.c.s:
-	cd /workspaces/xmrig/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_whirlpool.c.s
+	cd /workspaces/xmrig/build && $(MAKE) -f src/crypto/ghostrider/CMakeFiles/ghostrider.dir/build.make src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_whirlpool.c.s
 .PHONY : sph_whirlpool.c.s
 
 # Help Target
@@ -655,6 +655,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /workspaces/xmrig/xmrig/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspaces/xmrig/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /workspaces/xmrig/xmrig/src/3rdparty/argon2
+# Install script for directory: /workspaces/xmrig/src/3rdparty/argon2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

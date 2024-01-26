@@ -1,4 +1,4 @@
-# Install script for directory: /workspaces/xmrig/xmrig/src/crypto/ghostrider
+# Install script for directory: /workspaces/xmrig/src/crypto/ghostrider
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

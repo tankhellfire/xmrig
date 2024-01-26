@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/xmrig/xmrig
+CMAKE_SOURCE_DIR = /workspaces/xmrig
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/xmrig/xmrig/build
+CMAKE_BINARY_DIR = /workspaces/xmrig/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/xmrig-asm.dir/depend.make
@@ -59,13 +59,13 @@ include CMakeFiles/xmrig-asm.dir/flags.make
 
 CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o: CMakeFiles/xmrig-asm.dir/flags.make
 CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o: ../src/crypto/cn/asm/cn_main_loop.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o"
-	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o -c /workspaces/xmrig/xmrig/src/crypto/cn/asm/cn_main_loop.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o -c /workspaces/xmrig/src/crypto/cn/asm/cn_main_loop.S
 
 CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o: CMakeFiles/xmrig-asm.dir/flags.make
 CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o: ../src/crypto/cn/asm/CryptonightR_template.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building ASM object CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o"
-	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o -c /workspaces/xmrig/xmrig/src/crypto/cn/asm/CryptonightR_template.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building ASM object CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o"
+	/usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o -c /workspaces/xmrig/src/crypto/cn/asm/CryptonightR_template.S
 
 # Object files for target xmrig-asm
 xmrig__asm_OBJECTS = \
@@ -79,7 +79,7 @@ libxmrig-asm.a: CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/cn_main_loop.S.o
 libxmrig-asm.a: CMakeFiles/xmrig-asm.dir/src/crypto/cn/asm/CryptonightR_template.S.o
 libxmrig-asm.a: CMakeFiles/xmrig-asm.dir/build.make
 libxmrig-asm.a: CMakeFiles/xmrig-asm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/xmrig/xmrig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libxmrig-asm.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/xmrig/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libxmrig-asm.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/xmrig-asm.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xmrig-asm.dir/link.txt --verbose=$(VERBOSE)
 
@@ -93,6 +93,6 @@ CMakeFiles/xmrig-asm.dir/clean:
 .PHONY : CMakeFiles/xmrig-asm.dir/clean
 
 CMakeFiles/xmrig-asm.dir/depend:
-	cd /workspaces/xmrig/xmrig/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/xmrig/xmrig /workspaces/xmrig/xmrig /workspaces/xmrig/xmrig/build /workspaces/xmrig/xmrig/build /workspaces/xmrig/xmrig/build/CMakeFiles/xmrig-asm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspaces/xmrig/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/xmrig /workspaces/xmrig /workspaces/xmrig/build /workspaces/xmrig/build /workspaces/xmrig/build/CMakeFiles/xmrig-asm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/xmrig-asm.dir/depend
 

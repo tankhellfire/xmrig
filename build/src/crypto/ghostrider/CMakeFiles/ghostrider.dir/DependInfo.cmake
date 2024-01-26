@@ -5,22 +5,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_blake.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_blake.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_bmw.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_bmw.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_cubehash.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_cubehash.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_echo.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_echo.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_fugue.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_fugue.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_groestl.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_groestl.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_hamsi.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_hamsi.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_jh.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_jh.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_keccak.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_keccak.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_luffa.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_luffa.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_sha2.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_sha2.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_shabal.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shabal.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_shavite.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shavite.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_simd.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_simd.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_skein.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_skein.c.o"
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/sph_whirlpool.c" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_whirlpool.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_blake.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_blake.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_bmw.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_bmw.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_cubehash.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_cubehash.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_echo.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_echo.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_fugue.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_fugue.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_groestl.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_groestl.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_hamsi.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_hamsi.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_jh.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_jh.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_keccak.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_keccak.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_luffa.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_luffa.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_sha2.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_sha2.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_shabal.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shabal.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_shavite.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_shavite.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_simd.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_simd.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_skein.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_skein.c.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/sph_whirlpool.c" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/sph_whirlpool.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -69,7 +69,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../src/crypto/ghostrider/../.."
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/workspaces/xmrig/xmrig/src/crypto/ghostrider/ghostrider.cpp" "/workspaces/xmrig/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/ghostrider.cpp.o"
+  "/workspaces/xmrig/src/crypto/ghostrider/ghostrider.cpp" "/workspaces/xmrig/build/src/crypto/ghostrider/CMakeFiles/ghostrider.dir/ghostrider.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

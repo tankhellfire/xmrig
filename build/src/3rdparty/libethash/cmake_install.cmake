@@ -1,4 +1,4 @@
-# Install script for directory: /workspaces/xmrig/xmrig/src/3rdparty/libethash
+# Install script for directory: /workspaces/xmrig/src/3rdparty/libethash
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
