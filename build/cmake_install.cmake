@@ -1,4 +1,4 @@
-# Install script for directory: /workspaces/xmrig/xmrig
+# Install script for directory: /workspaces/xmrig
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
