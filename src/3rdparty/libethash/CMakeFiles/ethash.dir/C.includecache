@@ -90,9 +90,5 @@ stdint.h
 stdint.h
 -
 
-/workspaces/xmrig/src/3rdparty/libethash/keccakf800.c
-stdint.h
--
-
 src/base/crypto/sha3.h
 
