@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
 project(xmrig)
-set(CMAKE_TOOLCHAIN_FILE /workspaces/xmrig/TC-mingw.cmake)
 
 option(WITH_HWLOC           "Enable hwloc support" ON)
 option(WITH_CN_LITE         "Enable CryptoNight-Lite algorithms family" ON)
